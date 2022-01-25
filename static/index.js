@@ -343,7 +343,7 @@ function shareText(score) {
     SubmitResults();
     if (score <= 30) return '笨老婆？';
     if (score <= 50) return '老婆笨笨';
-    if (score <= 80) return '厉害了';
+    if (score <= 60) return '厉害了';
     if (score <= 100) return '老婆棒棒';
     return '成功啦！';
 }
